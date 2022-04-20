@@ -17,12 +17,14 @@
     "url": "https://github.com/tinchoz49/eslint-standard-init/issues"
   },
   "homepage": "https://github.com/tinchoz49/eslint-standard-init#readme",
-  "devDependencies": {
-    "eslint": "^8.13.0",
+  "dependencies": {
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4"
+  },
+  "peerDependencies": {
+    "eslint": "^8.13.0"
   }
 }
